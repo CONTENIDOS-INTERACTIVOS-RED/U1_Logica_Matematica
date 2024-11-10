@@ -19,10 +19,10 @@
             )
           //- Columna derecha con información
           .col-xl-7.info-section
-            .content-wrapper.px-lg-4.pt-lg-4.px-xl-5.py-xl-5.text-start
-              p.home-main-title Desarrollo Físico y Motor en Niños y Adolescentes
-              h1.home-title.mb-4.text-uppercase Desarrollo y Ciclo Vital: Niños y Adolescentes
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
+            .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
+              p.home-main-title Introducción a la Lógica y el Pensamiento Lógico
+              h1.home-title.mb-4.text-uppercase Lógica Matemática
+              p.descripcion.mb-4 La lógica matemática es una disciplina esencial que permite analizar y estructurar proposiciones para construir argumentos coherentes y llegar a conclusiones fundamentadas. A través de conectores lógicos como la conjunción, disyunción e implicación, se exploran relaciones complejas que facilitan el razonamiento en matemáticas, ciencias, informática y situaciones de la vida cotidiana. Herramientas visuales como los diagramas de Venn y las tablas de verdad ayudan a representar estas relaciones y a entender cómo interactúan diferentes proposiciones, promoviendo habilidades de pensamiento crítico y mejorando la toma de decisiones fundamentadas en diversos contextos.
 
               p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
 
@@ -141,16 +141,17 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.4s ease-in-out
-    background-color: #9EF0FD !important
+    background-color: #F8C624 !important
     color: #0B0A0A !important
   .icon
     transition: all 0.4s ease-in-out
-    background-color: #083E61 !important
+    background-color: #886C13 !important
+    color: $white !important
   &:hover
     .iniciar-btn-text
-      background-color: #083E61 !important
+      background-color:  #886C13 !important
       color: white !important
     .icon
-      background-color: #9EF0FD !important
+      background-color: #F8C624 !important
       color: #0B0A0A !important
 </style>

@@ -1,10 +1,10 @@
 <template lang="pug">
 .curso-main-container.creditos-vista
-  BannerInterno(:titulo="'FUNDAMENTACIÓN JURÍDICA - unidad 1'" :subTitulo="'SÍNTESIS'")
+  BannerInterno(:titulo="'Unidad 1. Introducción a la Lógica y el Pensamiento Lógico'" :subTitulo="'SÍNTESIS'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 La unidad I:  Introducción al derecho y sus fuentes, establece los fundamentos teóricos esenciales para comprender el origen de las normas jurídicas y su aplicación. 
+    p.mb-4.mb-md-5 La <strong>unidad 1: Introducción a la lógica y el pensamiento lógico</strong> explora los fundamentos de la lógica matemática, una disciplina esencial para el análisis y la estructuración de ideas a través de proposiciones y argumentos. Esta unidad abarca conceptos como los conectores lógicos y el uso de tablas de verdad, herramientas que permiten combinar y evaluar proposiciones de manera clara y precisa. Además, se examinan dos formas de razonamiento fundamentales, el deductivo e inductivo, aplicables tanto en el ámbito académico como en la vida cotidiana. A través de estos elementos, los estudiantes desarrollarán habilidades de pensamiento crítico y lógico, esenciales para una toma de decisiones fundamentada. 
     figure
-      img(src='@/assets/componentes/sintesis-test.png', alt='Texto que describa la imagen')
+      img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
 
 </template>

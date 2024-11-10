@@ -1,138 +1,109 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:titulo="'FUNDAMENTACIÓN JURÍDICA - unidad 1'" :subTitulo="'INTRODUCCIÓN'")
+  BannerInterno.text-uppercase(:titulo="'Unidad 1. Introducción a la Lógica y el Pensamiento Lógico'" :subTitulo="'1. Definición de lógica matemática'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-    #t_1_1.titulo-segundo.color-secundario
-      h2 1.1  Título de segundo
-    .row.justify-content-between.mb-5
-      .col-md-6.col-lg-7
-        p Desde los inicios de la humanidad, las reglas han sido un elemento fundamental para el desarrollo de las sociedades. El Derecho, en este contexto, se presenta como una herramienta indispensable para el buen funcionamiento de la convivencia. En esta primera unidad, se profundizará en el concepto de Derecho, su propósito y origen, así como en el proceso de creación de normas que regulan nuestras actividades diarias, las relaciones entre individuos y el Estado, y las normas que operan en el ámbito global.
-      .col-md-6.col-lg-5
-        //- .imagen-titulo--der debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        figure.mt-4.mt-lg-0
-          img(src='@/assets/componentes/banner-img-1.png', alt='Texto que describa la imagen')
-    #t_1_2.titulo-segundo.color-secundario
-      h2 1.2  Acordeón
-    .row.justify-content-between.mb-5
-      .col-md-6.col-lg-7
-        AcordionA(tipo="b")
-          .row(titulo="Titulo item 1")
-            .col
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+    .row.mb-4
+      p Antes de definir la <strong>lógica</strong> matemática, es fundamental revisar los términos que la componen. En general, la palabra "lógica" se concibe como una disciplina de la filosofía dedicada al estudio de las inferencias. Al profundizar en su definición, la inferencia se comprende como el <strong>proceso mediante el cual una conclusión se sigue de una premisa, existiendo argumentos que pueden ser válidos o no, junto con métodos para identificarlos</strong>.
 
-          div(titulo="Titulo item 2")
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-      .col-md-6.col-lg-5.col-xl-4.mx-xl-auto
-        //- .imagen-titulo--der debe ir acompañado de una de una de estas clases => 
-        //- .color-primario, .color-secundario, .color-acento-contenido, .color-acento-botones
-        figure
-          img(src='@/assets/componentes/banner-img-2.png', alt='Texto que describa la imagen')
-    #t_1_3.titulo-segundo.color-secundario.pb-5
-      h2 1.3  Slider
-    .row.position-relative.mb-5
-      img.bg-img-1(src='../../assets/componentes/background-test.svg', alt='Texto que describa la imagen')
-      SlyderA(tipo="b").bg-white
-        .row.p-4.p-md-5
-          .col-md-6.col-lg-7.mb-4.mb-md-0
-            p.text-bold Coercibilidad
-            p El derecho puede imponerse por la fuerza si es necesario. Cuando una persona incumple una norma jurídica, puede ser sancionada mediante multas, penas de prisión o la confiscación de bienes. Esta coercibilidad distingue al derecho de otros sistemas normativos que no cuentan con mecanismos de imposición obligatoria.
-        
-          .col-md-6.col-lg-5
-            figure
-              img(src='@/assets/componentes/banner-img-3.png', alt='Texto que describa la imagen')
-        .row.p-4.p-md-5
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-        .row.p-4.p-md-5
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-    #t_1_4.titulo-segundo.color-secundario.pt-5
-      h2 1.4  Pestañas
     .row.mb-5
-      TabsC.color-primario
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="The splendor of the mystery")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
+      .col-12.col-xl-7.col-xxl-8.d-flex.align-items-center.flex-column
+        div.d-flex.align-items-start.bg-rosa.px-3.py-4.mb-4
+          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-5.svg', alt='Texto que describa la imagen')
+          p.pe-xl-3.fs-18px(data-aos="fade-up") Etimológicamente, el término "lógica" proviene del griego logiké, que significa "dotada de razón." No obstante, en el uso cotidiano, esta palabra se asocia con el "sentido común," refiriéndose a una forma coherente de pensar.
+        p Tras estos conceptos iniciales sobre lógica, se explorará brevemente su historia. Aunque se originó con distintos filósofos y pensadores de <strong>China</strong>, <strong>India</strong>, <strong>Grecia</strong> y <strong>Babilonia</strong>, la lógica aristotélica ha sido particularmente destacada. Las principales obras de Aristóteles dieron lugar a diferentes axiomas que constituyen la base de la lógica, entre los cuales se encuentran:
+      .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0
+        img(src='@/assets/curso/unidad/img-6.png', alt='Texto que describa la imagen')  
+
+    .row.mb-5.bg-fondo-2.bg-full-width
+      div.px-4.px-md-5.pb-md-3
+        .row
+          p.mb-5.px-5.px-md-0 Antes de definir la <strong>lógica matemática</strong>, es fundamental revisar los términos que la componen. En general, la palabra "lógica" se concibe como una disciplina de la filosofía dedicada al estudio de las inferencias. Al profundizar en su definición, la inferencia se comprende como el proceso mediante el cual una conclusión se sigue de una premisa, existiendo argumentos que pueden ser válidos o no, junto con métodos para identificarlos.
+          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-7.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center Principio de no contradicción
+                p.text-small.px-4.text-center.pb-2 Establece que algo no puede ser y no ser al mismo tiempo (A y ¬A no pueden ser ciertos a la vez).
+          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center Principio de identidad 
+                p.text-small.px-4.text-center.pb-2 Determina que algo es siempre idéntico a sí mismo (A es siempre igual a A).
+          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto.mt-4.mt-lg-0
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-9.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center Principio del tercero excluido
+                p.text-small.px-4.text-center.pb-2 Afirma que algo es verdadero o no lo es, sin gradaciones posibles (A o ¬A).
+    .row.mb-4
+      p Estos fundamentos marcaron el inicio de la lógica, y existen más conceptos históricos y definiciones sobre argumentos, validez de los mismos, esquemas de argumentos y revisión de premisas. Además, la lógica se ha dividido en lógica formal e informal, áreas que se abordarán a lo largo de este documento.
+
+    .row.mb-5
+      .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0
+        img(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')  
+      .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
+        div.d-flex.align-items-start.bg-amarillo.px-3.py-4.mb-4
+          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-11.svg', alt='Texto que describa la imagen')
+          p.pe-xl-3.fs-18px(data-aos="fade-up") Estos fundamentos marcaron el inicio de la lógica, y existen más conceptos históricos y definiciones sobre argumentos, validez de los mismos, esquemas de argumentos y revisión de premisas. Además, la lógica se ha dividido en lógica formal e informal, áreas que se abordarán a lo largo de este documento.
+        p.mb-4 Por ahora, se introducirá la lógica matemática, una de las áreas de estudio esenciales en este curso. La lógica matemática se define como el estudio de estructuras formales que permiten representar de manera rigurosa el razonamiento deductivo. Emplea símbolos y reglas para establecer la validez de afirmaciones, verificando si, a partir de unas proposiciones iniciales (premisas), es posible llegar a una conclusión verdadera de manera consistente.
+        p.text-bold Los componentes principales de la lógica matemática:
+
+
+    .row.position-relative.mb-5.py-4.bg-fondo-3.bg-full-width
+      div.px-4.px-md-5.py-md-3
+        SlyderA(tipo="b").bg-white
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.fs-18px.text-bold Perspectiva biológica 
+              p.fs-18px Declaraciones que pueden ser verdaderas o falsas. Ejemplo: "El número 2 es par".
+            .d-none.d-lg-block.col-md-6.col-lg-4
               figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="Jerarquía normativa")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
+                img(src='@/assets/curso/unidad/img-12.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.fs-18px.text-bold Conectores lógicos 
+              p.fs-18px Operadores que crean proposiciones complejas a partir de proposiciones simples. Incluyen negación (¬), conjunción (∧), disyunción (∨), implicación (→), y bicondicional (↔), cada uno con reglas específicas sobre el valor de verdad.
+            .d-none.d-lg-block.col-md-6.col-lg-4
               figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-        .tabs-content.border.px-4.p-md-5.py-3(titulo="Sentido amplio de la norma")
-          .row
-            .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6.col-lg-5.col-xl-4
+                img(src='@/assets/curso/unidad/img-13.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.fs-18px.text-bold Cuantificadores 
+              p.fs-18px Permiten generalizar proposiciones. Ejemplos: cuantificador universal (∀), que indica "para todo", y cuantificador existencial (∃), que indica "existe al menos uno".
+            .d-none.d-lg-block.col-md-6.col-lg-4
               figure
-                img(src='@/assets/componentes/banner-img-4.png', alt='Texto que describa la imagen')
-    #t_1_5.titulo-segundo.color-secundario.pt-5
-      h2 1.5  Infografia interactiva
-      
-    .row.mb-5.justify-content-center.img-infografica.p-md-5
-      .col-12.col-md-9
-        ImagenInfografica.color-secundario
-          template(v-slot:imagen)
-            figure
-              img(src='@/assets/componentes/test-img-infogr.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
+          .row.p-4.px-md-5.py-lg-5.justify-content-between
+            .col-md-12.col-lg-7.mb-4.mb-md-0
+              p.fs-18px.text-bold Sistemas formales 
+              p.fs-18px Colecciones de axiomas y reglas utilizadas para derivar teoremas, como en la lógica de primer orden.
+            .d-none.d-lg-block.col-md-6.col-lg-4
+              figure
+                img(src='@/assets/curso/unidad/img-15.png', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-botones.p-3(x="9%" y="19%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+    .row
+      p.mb-4.text-bold Algunos ejemplos son: 
+    .row.mb-4.justify-content-center.align-items-stretch
+      .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
+        .custom-image-card.d-flex.align-items-center.p-3
+          img.pe-2(src='@/assets/curso/unidad/img-16.png', style="width: 80px")
+          div
+            p.text-bold.mb-0 Proposición simple:
+            p.px-1.text-small.mb-0.d-flex "El número 5 es primo".
+      .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
+        .custom-image-card.d-flex.align-items-center.p-3
+          img.pe-2(src='@/assets/curso/unidad/img-17.png', style="width: 80px")
+          div
+            p.text-bold.mb-0 Proposición compuesta:
+            p.px-1.text-small.mb-0.d-flex "Si el número 5 es primo, entonces 7 es impar" (usando implicación lógica).
 
-          .tarjeta.color-acento-botones.p-3(x="91%" y="81%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
+    p La lógica matemática también incluye subramas como la teoría de conjuntos, la teoría de modelos, y la teoría de la computación, que amplían sus aplicaciones a otras áreas matemáticas y científicas.
 
-          .tarjeta.color-acento-botones.p-3(x="91%" y="19%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
 
-          .tarjeta.color-acento-botones.p-3(x="9%" y="81%" numero="+")
-            .h5.mb-2 titulo
-            p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-    .row.material-complementario
-      h2 MATERIAL COMPLEMENTARIO
-      .col-12.col-md-6.col-lg-7
-        p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Peña, G. E. G. (2021). Las fuentes del derecho. Lecciones de introducción al derecho, 189
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Suárez, E. (2020). Introducción al derecho. Ediciones UNL
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span De Sousa, M. T. (2019). Introducción al derecho. Temis 
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Nieto, A. (2019). Una introducción al derecho.
-      .col-12.col-md-6.col-lg-3.offset-lg-1
-        figure
-          img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+
+
+
 </template>
 
 <script>

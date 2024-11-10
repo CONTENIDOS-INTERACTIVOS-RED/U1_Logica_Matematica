@@ -22,7 +22,7 @@ export default {
       {
         nombreRuta: 'inicio',
         icono: 'fas fa-home',
-        titulo: 'Volver al inici',
+        titulo: 'Volver al inicio',
       },
       {
         nombreRuta: 'introduccion',
@@ -34,104 +34,52 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Definición de lógica matemática',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Título de segundo nivel',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Acordeón',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Slider',
-            hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
-          },
-        ],
+        subMenu: [],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Pensamiento lógico',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo: 'Razonamiento deductivo',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
+            titulo: 'Razonamiento inductivo',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Audios',
+            titulo: 'Relación entre ambos tipos de razonamiento',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Listado',
+            titulo: 'Importancia del pensamiento lógico en la vida cotidiana',
             hash: 't_2_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Línea de tiempo',
+            titulo: 'Pensamiento crítico y lógica',
             hash: 't_2_5',
           },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Unidad',
-        desarrolloContenidos: true,
-        subMenu: [
           {
             icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Carrusel',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Tablas',
-            hash: 't_3_2',
+            numero: '2.6',
+            titulo: 'Proposiciones, conectores lógicos y tablas de verdad',
+            hash: 't_2_6',
           },
         ],
       },
@@ -161,7 +109,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
+        download: 'downloads/Logica_matematica_U1.zip',
       },
       {
         icono: 'fas fa-download',
@@ -178,47 +126,77 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Bates, T. (2015). Teaching in a digital age: Guidelines for designing teaching and learning. BCcampus.',
+      link: '',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Bautista Pérez, G., Forés Miravalles, A., & Borges Sáiz, F. (2016). Didáctica universitaria en entornos virtuales de enseñanza-aprendizaje. Narcea Ediciones.',
+      link: '',
+    },
+    {
+      referencia: 'Bustinduy, I. (2015). La gestión del tiempo. Editorial UOC.',
+      link: '',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Cenich, G. (2006). Propuesta de aprendizaje basado en proyecto y trabajo colaborativo: experiencia de un curso en línea. Red Revista Electrónica de Investigación Educativa.',
+      link: '',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'García, L. (2019). Productividad y gestión del tiempo: Principios y técnicas efectivas.',
+      link: '',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Moore, M. G., & Kearsley, G. (2012). Distance education: A systems view of online learning (3rd ed.). Wadsworth Cengage Learning.',
+      link: '',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        "O'Driscoll, A., & Kaye, P. (2019). Los sistemas de gestión de aprendizaje: Modernización educativa y acceso eficiente al contenido. Editorial ABC.",
+      link: '',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Organización para la Cooperación y el Desarrollo Económicos (OCDE). (2017). Manual para entornos de aprendizaje innovadores. Editorial UOC.',
+      link: '',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Pedraza, M. A. (2009). Los entornos virtuales de enseñanza-aprendizaje: propuesta pedagógica. El Cid Editor | Apuntes.',
+      link: '',
+    },
+    {
+      referencia:
+        'Quijada Monroy, V. del C. (2014). Aprendizaje virtual. Editorial Digital UNID.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ramos Ramos, P. (2014). Gestión del tiempo y planificación de tareas (2a ed.). Editorial ICB.',
+      link: '',
+    },
+    {
+      referencia:
+        'Ruiz Ospino, E. A., & Sánchez Fontalvo, I. M. (2019). ¿Qué piensan los profesores universitarios de los estilos de aprendizaje?. Editorial Unimagdalena.',
+      link: '',
+    },
+    {
+      referencia:
+        'Salmon, G. (2013). Moderación electrónica: la clave para la enseñanza y el aprendizaje en línea.',
+      link: '',
+    },
+    {
+      referencia:
+        'Sangrà Morer, A., & Girona Campillo, C. (2013). Los materiales de aprendizaje en contextos educativos virtuales: pautas para el diseño tecnopedagógico. Editorial UOC.',
+      link: '',
+    },
+    {
+      referencia:
+        'Torres Quiñones, A. (2015). La construcción de las estrategias de aprendizaje en la formación inicial del profesional de la educación desde los entornos virtuales de aprendizaje. Editorial Universitaria.',
+      link: '',
     },
   ],
   glosario: [

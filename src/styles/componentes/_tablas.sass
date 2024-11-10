@@ -20,8 +20,9 @@ table
     // background-color: $table-header-bg-color
     th
       padding: 24px 18px
+      text-align: center
     th:nth-child(even)
-      background-color: #F5EEC2
+      background-color: #FBF6DB
     th:nth-child(odd)
       background-color: #FBF6DB
 
@@ -40,9 +41,9 @@ table
     tr
       td
         padding: 24px 18px
-      td:first-child
-        padding: 20px
-        border-right: 1px solid #D9D9D9
+    td:not(:last-child)
+      padding: 20px
+      border-right: 1px solid #D9D9D9
 
   &.color-primario
     thead
