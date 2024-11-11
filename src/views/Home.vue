@@ -140,18 +140,14 @@ export default {
 
 .iniciar-btn-container
   .iniciar-btn-text
-    transition: all 0.4s ease-in-out
+    transition: all 0.25s ease-in-out
     background-color: #F8C624 !important
     color: #0B0A0A !important
   .icon
-    transition: all 0.4s ease-in-out
+    transition: all 0.25s ease-in-out
     background-color: #886C13 !important
     color: $white !important
   &:hover
-    .iniciar-btn-text
-      background-color:  #886C13 !important
-      color: white !important
     .icon
-      background-color: #F8C624 !important
-      color: #0B0A0A !important
+      transform: scale(1.06)
 </style>

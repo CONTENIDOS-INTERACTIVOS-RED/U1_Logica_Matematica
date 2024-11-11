@@ -167,15 +167,15 @@
           p Un razonamiento deductivo es válido si la conclusión se deriva lógicamente de las premisas, independientemente de su veracidad. Ejemplo: “Todos los gatos vuelan” y “mi mascota es un gato” llevan a la conclusión “mi mascota vuela”, una conclusión válida por su estructura lógica.
 
         .tarjeta.bg-white.p-4(x="42%" y="23.5%" numero="+")
-          .h5.mb-2 Verdad
+          .h5.mb-3 Verdad
           p Para que la conclusión sea verdadera, el razonamiento debe ser válido y las premisas deben ser correctas. Ejemplo: “Todos los peces viven en el agua” y “un tiburón es un pez” concluyen en “el tiburón vive en el agua”, siendo verdadera porque las premisas también lo son.
 
         .tarjeta.bg-white.p-4(x="58%" y="76.5%" numero="+")
-          .h5.mb-2 Certeza
+          .h5.mb-3 Certeza
           p El razonamiento deductivo ofrece conclusiones seguras siempre que las premisas sean ciertas. Es como un rompecabezas en el que, si las piezas (premisas) encajan, la conclusión será totalmente confiable. 
 
         .tarjeta.bg-white.p-4(x="73.5%" y="22%" numero="+")
-          .h5.mb-2 De lo general a lo específico 
+          .h5.mb-3 De lo general a lo específico 
           p El razonamiento deductivo parte de ideas generales y amplias para alcanzar conclusiones específicas. Ejemplo: sabiendo que “todos los pájaros tienen alas” y que “un gorrión es un pájaro”, se concluye que “el gorrión tiene alas”, una conclusión específica derivada de una premisa general.
 
     .row.mb-5.bg-fondo-1.bg-full-width
@@ -255,7 +255,7 @@
       p.mb-4 Aunque esta conclusión es probable, no podemos estar completamente seguros, ya que podría haber una excepción en el futuro.
       p.text-bold Las características clave son:
 
-    .row.mb-5
+    .row.mb-4
       .col-12.col-lg-7
         AcordionA(tipo="b")
           .div(titulo="Probabilidad")

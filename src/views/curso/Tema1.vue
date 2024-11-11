@@ -84,7 +84,7 @@
 
     .row
       p.mb-4.text-bold Algunos ejemplos son: 
-    .row.mb-4.justify-content-center.align-items-stretch
+    .row.mb-4.pb-2.justify-content-center.align-items-stretch
       .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
         .custom-image-card.d-flex.align-items-center.p-3
           img.pe-2(src='@/assets/curso/unidad/img-16.png', style="width: 80px")
