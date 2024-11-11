@@ -102,8 +102,10 @@
     .row.mb-5
       p De acuerdo con lo anterior, el pensamiento lógico se define como la capacidad de razonar de forma coherente y estructurada, con el fin de llegar a conclusiones válidas a partir de la información disponible. Dentro del pensamiento lógico, se distinguen dos enfoques fundamentales: el razonamiento inductivo y el razonamiento deductivo. Ambos son esenciales en la toma de decisiones, la resolución de problemas y la construcción del conocimiento, aunque operan de maneras distintas.
 
-    #t_2_1.titulo-segundo.color-secundario
-      h1 2.1 Razonamiento deductivo
+    #t_2_1.titulo-segundo
+      div.d-flex
+        span.me-3 2.1  
+        h2 Razonamiento deductivo
 
     .row.mb-5.mx-0
       .col-12.col-xl-8.d-flex.align-items-center.bg-azul.p-4
@@ -217,8 +219,11 @@
             p.text-bold.mb-0 Conclusión
             p.text-small.mb-0.d-flex  x² = 36, que es mayor que 25.
 
-    #t_2_2.titulo-segundo.color-secundario
-      h1 2.2 Razonamiento inductivo
+    #t_2_2.titulo-segundo
+      div.d-flex
+        span.me-3 2.2  
+        h2 Razonamiento inductivo
+
     p.mb-4 El razonamiento inductivo es un tipo de razonamiento que sigue el camino opuesto al deductivo: va de lo particular a lo general. Esto implica que partimos de la observación de casos o ejemplos específicos y, a partir de ellos, llegamos a una conclusión general. 
 
     .row.mb-4
@@ -386,8 +391,10 @@
               h4 Falsabilidad
               p No garantiza la veracidad absoluta de las conclusiones; siempre existe la posibilidad de que aparezca una excepción que invalide una generalización.
 
-    #t_2_3.titulo-segundo.color-secundario
-      h1 2.3 Relación entre ambos tipos de razonamiento
+    #t_2_3.titulo-segundo
+      div.d-flex
+        span.me-3 2.3  
+        h2 Relación entre ambos tipos de razonamiento
 
     .row.mb-4
       p.mb-4 A pesar de sus diferencias, el razonamiento inductivo y el deductivo suelen complementarse en la práctica. En muchos casos, el razonamiento inductivo genera hipótesis generales que luego pueden verificarse de forma más rigurosa mediante el razonamiento deductivo.
@@ -438,8 +445,10 @@
           p.mb-0 <strong>Conclusión</strong> Probablemente, todos los cisnes son blancos.
     p.mb-5 En este caso, a partir de varias observaciones individuales, se extrae una conclusión general. No obstante, esta conclusión no es completamente segura, ya que podría existir un cisne que no sea blanco, lo cual invalidaría la generalización.
 
-    #t_2_4.titulo-segundo.color-secundario
-      h1 2.4 Importancia del pensamiento lógico en la vida cotidiana
+    #t_2_4.titulo-segundo
+      div.d-flex
+        span.me-3 2.4  
+        h2 Importancia del pensamiento lógico en la vida cotidiana
 
     .row.mb-5
       .col-12.col-xl-7.col-xxl-8.d-flex.flex-column
@@ -484,10 +493,10 @@
             h4 Comunicación efectiva
             p El razonamiento lógico mejora la solidez de los argumentos en debates, discusiones y presentaciones profesionales, fortaleciendo la claridad y coherencia en la transmisión de ideas.
 
-
-    #t_2_5.titulo-segundo.color-secundario
-      h1 2.5 Pensamiento crítico y lógica
-
+    #t_2_5.titulo-segundo
+      div.d-flex
+        span.me-3 2.5
+        h2 Pensamiento crítico y lógica
 
     .row.mb-5.mx-0
       .d-none.d-xl-block.col-4.px-0
@@ -536,8 +545,11 @@
       .d-none.d-xl-block.col-4.px-0
         img.h-100(src='@/assets/curso/unidad/img-74.png', alt='Texto que describa la imagen')
     
-    #t_2_6.titulo-segundo.color-secundario
-      h1 2.6 Proposiciones, conectores lógicos y tablas de verdad
+    #t_2_6.titulo-segundo
+      div.d-flex
+        span.me-3 2.6  
+        h2 Proposiciones, conectores lógicos y tablas de verdad
+    
     p.mb-5 Las proposiciones son afirmaciones que pueden ser verdaderas o falsas. A diferencia de una pregunta o una orden, que no pueden clasificarse como verdaderas o falsas, una proposición es clara y posee un valor de verdad específico. Por ejemplo, al decir "El cielo es azul", esta afirmación puede ser verdadera en un día despejado o falsa en un día nublado.
 
     .tarjeta.box-shadow.p-3.mb-5
