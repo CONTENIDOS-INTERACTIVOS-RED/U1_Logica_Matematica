@@ -47,7 +47,7 @@
             .col-md-12.col-lg-7.mb-4.mb-md-0
               p.text-bold Cubo de Rubik 
               p Popular juguete de finales del siglo XX. Consiste en un cubo con seis caras de nueve cuadrados de colores, que se mezclan y deben recomponerse siguiendo secuencias y algoritmos específicos.
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="flip-up")
               figure
                 img(src='@/assets/curso/unidad/img-24.png', alt='Texto que describa la imagen')
           .row.p-4.px-md-5.py-lg-5.justify-content-between
@@ -119,15 +119,15 @@
 
     .row.mb-5.justify-content-center.align-items-stretch
       .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
-        .custom-image-card.d-flex.align-items-center.p-3
+        .custom-image-card.d-flex.align-items-center.p-3(data-aos="fade-right")
           img.pe-2(src='@/assets/curso/unidad/img-33.svg', style="width: 80px")
           p.px-1.text-small.mb-0.d-flex "Todos los humanos necesitan oxígeno para vivir" (primera premisa)
       .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
-        .custom-image-card.d-flex.align-items-center.p-3
+        .custom-image-card.d-flex.align-items-center.p-3(data-aos="fade-up")
           img.pe-2(src='@/assets/curso/unidad/img-34.svg', style="width: 80px")
           p.px-1.text-small.mb-0.d-flex "Ana es humana" (segunda premisa).
       .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
-        .custom-image-card.d-flex.align-items-center.p-3
+        .custom-image-card.d-flex.align-items-center.p-3(data-aos="fade-left")
           img.pe-2(src='@/assets/curso/unidad/img-35.svg', style="width: 80px")
           p.px-1.text-small.mb-0.d-flex Por lo tanto, "Ana necesita oxígeno para vivir" (conclusión).
  
@@ -136,19 +136,19 @@
       p.mb-4 Ejemplo clásico de silogismo
 
     .row.mb-5.justify-content-center
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="flip-right")
         .custom-image-card.d-flex.p-3
           img.pe-2(src='@/assets/curso/unidad/img-36.svg', style="width: 80px")
           div.d-flex.flex-column.justify-content-center
             p.text-bold.mb-0 Premisa 1
             p.text-small.mb-0.d-flex Todos los humanos son mortales.
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="flip-down")
         .custom-image-card.d-flex.p-3
           img.pe-2(src='@/assets/curso/unidad/img-37.svg', style="width: 80px")
           div.d-flex.flex-column.justify-content-center
             p.text-bold.mb-0 Premisa 2
             p.text-small.mb-0.d-flex Sócrates es humano.
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="flip-left")
         .custom-image-card.d-flex.p-3
           img.pe-2(src='@/assets/curso/unidad/img-38.svg', style="width: 80px")
           div.d-flex.flex-column.justify-content-center
@@ -185,13 +185,13 @@
 
         .row
           p.mb-5.px-5.px-md-0 Las aplicaciones del razonamiento deductivo son: 
-          .col-10.col-lg-6.col-lg-6.mb-4.mb-md-0.mx-auto
+          .col-10.col-lg-6.col-lg-6.mb-4.mb-md-0.mx-auto(data-aos="fade-right")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.text-bold.text-center Matemáticas
                 p.text-small.px-4.text-center.pb-2 En matemáticas, el razonamiento deductivo es fundamental. Los teoremas se derivan de principios básicos o axiomas asumidos como verdaderos. A partir de estos axiomas, se aplican reglas lógicas para llegar a conclusiones específicas. Por ejemplo, en geometría, a partir del axioma "la suma de los ángulos de un triángulo es 180 grados", se pueden demostrar propiedades más complejas de figuras.
-          .col-10.col-lg-6.col-lg-6.mb-4.mb-md-0.mx-auto
+          .col-10.col-lg-6.col-lg-6.mb-4.mb-md-0.mx-auto(data-aos="fade-left")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
               div.mb-4
@@ -200,19 +200,19 @@
 
     .row.mb-5.justify-content-center
       p.mb-4 Ejemplo en matemáticas
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="flip-right")
         .custom-image-card.d-flex.p-3
           img.pe-2(src='@/assets/curso/unidad/img-42.svg', style="width: 80px")
           div.d-flex.flex-column.justify-content-center
             p.text-bold.mb-0 Premisa 1
             p.text-small.mb-0.d-flex(v-html="'Si x > 5, entonces x² > 25.'")
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="flip-down")
         .custom-image-card.d-flex.p-3
           img.pe-2(src='@/assets/curso/unidad/img-43.svg', style="width: 80px")
           div.d-flex.flex-column.justify-content-center
             p.text-bold.mb-0 Premisa 2
             p.text-small.mb-0.d-flex x = 6.
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0
+      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="flip-left")
         .custom-image-card.d-flex.p-3
           img.pe-2(src='@/assets/curso/unidad/img-44.svg', style="width: 80px")
           div.d-flex.flex-column.justify-content-center
@@ -227,7 +227,7 @@
     p.mb-4 El razonamiento inductivo es un tipo de razonamiento que sigue el camino opuesto al deductivo: va de lo particular a lo general. Esto implica que partimos de la observación de casos o ejemplos específicos y, a partir de ellos, llegamos a una conclusión general. 
 
     .row.mb-4
-      .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0
+      .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0(data-aos="zoom-in-left")
         img(src='@/assets/curso/unidad/img-45.png', alt='Texto que describa la imagen')  
       .col-12.col-xl-7.col-xxl-8.d-flex.align-items-center.flex-column
         div.d-flex.align-items-start.bg-azul.px-3.py-4.mb-4
@@ -239,19 +239,19 @@
       p El razonamiento inductivo comienza con la observación de varios datos o casos específicos y, con base en ellos, llega a una conclusión más amplia. Un ejemplo sencillo sería:
       
     .row.mb-5.justify-content-center
-      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
+      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0(data-aos="flip-up")
         .custom-image-card.d-flex.align-items-center.p-3
           img.pe-2(src='@/assets/curso/unidad/img-47.svg', style="width: 80px")
           p.px-1.text-small.mb-0 <strong>Observación 1</strong>. Hoy, el sol salió por el este.
-      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
+      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0(data-aos="flip-down")
         .custom-image-card.d-flex.align-items-center.p-3
           img.pe-2(src='@/assets/curso/unidad/img-47.svg', style="width: 80px")
           p.px-1.text-small.mb-0 <strong>Observación 2</strong>. Ayer, el sol también salió por el este.
-      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0
+      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0(data-aos="flip-up")
         .custom-image-card.d-flex.align-items-center.p-3
           img.pe-2(src='@/assets/curso/unidad/img-47.svg', style="width: 80px")
           p.px-1.text-small.mb-0 <strong>Observación 3</strong>. El sol ha salido por el este todos los días que recordamos.
-      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0.mt-xxl-0.mt-xl-4
+      .col-10.col-md-8.col-lg-6.col-xl-4.col-xxl-3.mb-4.mb-xl-0.mt-xxl-0.mt-xl-4(data-aos="flip-down")
         .custom-image-card.d-flex.align-items-center.p-3
           img.pe-2(src='@/assets/curso/unidad/img-47.svg', style="width: 80px")
           p.px-1.text-small.mb-0 <strong>Conclusión</strong>. Podemos decir que el sol siempre sale por el este.
@@ -261,7 +261,7 @@
       p.text-bold Las características clave son:
 
     .row.mb-4
-      .col-12.col-lg-7
+      .col-12.col-lg-7(data-aos="fade-right")
         AcordionA(tipo="b")
           .div(titulo="Probabilidad")
             p Las conclusiones del razonamiento inductivo son probables, pero no seguras. Aunque es posible que sean correctas, no se garantiza al 100 %.
@@ -271,7 +271,7 @@
             p El razonamiento inductivo permite ajustar las conclusiones al obtener más datos. Si una nueva observación contradice una conclusión previa, esta puede modificarse.
           .div(titulo="De lo específico a lo general")
             p El razonamiento inductivo parte de casos concretos y busca identificar patrones o reglas generales, como al observar piezas de un rompecabezas para deducir la imagen completa.
-      .col-12.col-lg-5.d-none.d-lg-block
+      .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         img.-mt-18px(src='@/assets/curso/unidad/img-48.png', alt='Texto que describa la imagen')
       
       p.mt-4 Las aplicaciones del razonamiento inductivo son:
@@ -283,7 +283,7 @@
             .col-md-12.col-lg-7.mb-4.mb-md-0
               p.text-bold Ciencias empíricas
               p Disciplinas como física, biología o sociología construyen su conocimiento mediante la observación de fenómenos y la formulación de teorías generales. Ejemplo: los biólogos observan especies y desarrollan teorías sobre la evolución.
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="flip-up")
               figure
                 img(src='@/assets/curso/unidad/img-49.png', alt='Texto que describa la imagen')
           .row.p-4.px-md-5.py-lg-5.justify-content-between
@@ -358,14 +358,14 @@
 
         .row
           p.mb-5.px-5.px-md-0 Si alguna de las premisas es incorrecta o incierta, la conclusión resultante también será incorrecta.
-          .col-10.col-lg-6.col-lg-6.mb-4.mb-md-0.mx-auto
+          .col-10.col-lg-6.col-lg-6.mb-4.mb-md-0.mx-auto(data-aos="fade-right")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-53.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.text-bold.text-center Dependencia de las premisas
                 p.text-small.px-4.text-center.pb-2 Si alguna de las premisas es incorrecta o incierta, la conclusión resultante también será incorrecta. 
                 
-          .col-10.col-lg-6.col-lg-6.mb-4.mb-md-0.mx-auto
+          .col-10.col-lg-6.col-lg-6.mb-4.mb-md-0.mx-auto(data-aos="fade-left")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-54.png', alt='Texto que describa la imagen')
               div.mb-4
@@ -399,7 +399,7 @@
     .row.mb-4
       p.mb-4 A pesar de sus diferencias, el razonamiento inductivo y el deductivo suelen complementarse en la práctica. En muchos casos, el razonamiento inductivo genera hipótesis generales que luego pueden verificarse de forma más rigurosa mediante el razonamiento deductivo.
       p.text-bold.mb-4 Ejemplo en el método científico son:
-      .col-12.col-lg-7
+      .col-12.col-lg-7(data-aos="fade-right")
         AcordionA(tipo="b")
           .div(titulo="Inducción")
             p Los científicos observan fenómenos específicos, como el comportamiento orbital de los planetas, y a partir de estas observaciones, formulan hipótesis generales, como la ley de la gravitación universal de Newton.
@@ -407,14 +407,14 @@
             p Una vez que la hipótesis está formulada, los científicos utilizan el razonamiento deductivo para derivar predicciones específicas que deben cumplirse si la hipótesis es correcta (por ejemplo, la predicción del movimiento de un cometa o el comportamiento de los satélites).
           .div(titulo="Comprobación")
             p Las predicciones derivadas deductivamente se ponen a prueba mediante experimentación o nuevas observaciones. Si las predicciones se cumplen, la hipótesis original se refuerza. Si no, puede ser modificada o descartada
-      .col-12.col-lg-5.d-none.d-lg-block
+      .col-12.col-lg-5.d-none.d-lg-block(data-aos="flip-up")
         img.-mt-18px(src='@/assets/curso/unidad/img-57.png', alt='Texto que describa la imagen')
 
     .row.mb-4
       p Este ciclo de inducción y deducción es esencial en el método científico, ya que permite a los científicos desarrollar nuevas teorías y comprobar su validez a lo largo del tiempo.
     
     .row.mb-4.pb-2.mx-0
-      .col-12.col-xl-8.d-flex.flex-column.justify-content-center.bg-amarillo-claro.p-4.p-xxl-5
+      .col-12.col-xl-8.d-flex.flex-column.justify-content-center.bg-amarillo-claro.p-4.p-xxl-5(data-aos="fade-right")
         p.mb-4 Ejemplo de razonamiento deductivo:
         div.d-flex
           img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
@@ -432,7 +432,7 @@
     .row.mb-4.mx-0
       .d-none.d-xl-block.col-4.px-0
         img.h-100(src='@/assets/curso/unidad/img-59.png', alt='Texto que describa la imagen')
-      .col-12.col-xl-8.d-flex.flex-column.justify-content-center.bg-azul-claro.p-4.p-xxl-5
+      .col-12.col-xl-8.d-flex.flex-column.justify-content-center.bg-azul-claro.p-4.p-xxl-5(data-aos="fade-left")
         p.mb-4 Ejemplo de razonamiento inductivo:
         div.d-flex
           img.mt-2.me-2.d-flex.align-self-base(style="width: 15px" src='@/assets/curso/arrow.svg', alt='Texto que describa la imagen')
@@ -502,19 +502,19 @@
       .d-none.d-xl-block.col-4.px-0
         img.h-100(src='@/assets/curso/unidad/img-70.png', alt='Texto que describa la imagen')
       .col-12.col-xl-8.d-flex.flex-column.justify-content-center.bg-azul-claro.p-4.p-xxl-5
-        p.mb-4 El pensamiento crítico se apoya en gran medida en el uso adecuado del razonamiento inductivo y deductivo. Un pensador crítico evalúa la validez de los argumentos, evidencias y conclusiones, cuestionando las premisas y buscando posibles inconsistencias en el razonamiento.
+        p.mb-4(data-aos="fade-up") El pensamiento crítico se apoya en gran medida en el uso adecuado del razonamiento inductivo y deductivo. Un pensador crítico evalúa la validez de los argumentos, evidencias y conclusiones, cuestionando las premisas y buscando posibles inconsistencias en el razonamiento.
 
     
     p.mb-4 Algunos ejemplos de pensamiento crítico son:
 
     .row.mb-5.justify-content-center
-      .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
+      .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0(data-aos="flip-right")
         .custom-image-card.d-flex.p-3
           img.pe-2(src='@/assets/curso/unidad/img-36.svg', style="width: 80px")
           div.d-flex.flex-column.justify-content-center
             p.text-bold.mb-0 Premisa 1
             p.text-small.mb-0.d-flex Todos los medios de comunicación son poco confiables.
-      .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
+      .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0(data-aos="flip-left")
         .custom-image-card.d-flex.p-3
           img.pe-2(src='@/assets/curso/unidad/img-37.svg', style="width: 80px")
           div.d-flex.flex-column.justify-content-center
@@ -527,7 +527,7 @@
       h1.mb-5 Limitaciones y sesgos en el pensamiento lógico
       p.mb-4 A pesar de su utilidad, el pensamiento lógico presenta limitaciones, y las personas pueden ser vulnerables a sesgos que distorsionan el razonamiento. Estos sesgos pueden afectar tanto al razonamiento inductivo como al deductivo. Los sesgos comunes son:
 
-      .col-12.col-lg-7
+      .col-12.col-lg-7(data-aos="fade-right")
         AcordionA(tipo="b")
           .div(titulo="Generalización apresurada (sesgo inductivo)")
             p Consiste en llegar a una conclusión general demasiado rápido basándose en un número limitado de observaciones.
@@ -540,7 +540,7 @@
 
     p.mb-4 El razonamiento inductivo y deductivo son pilares esenciales del pensamiento lógico. Mientras que el razonamiento deductivo permite llegar a conclusiones certeras a partir de principios generales, el razonamiento inductivo nos ayuda a formular hipótesis y teorías generales basadas en la observación de casos particulares
     .row.mb-5.mx-0
-      .col-12.col-xl-8.d-flex.flex-column.justify-content-center.bg-amarillo-claro.p-4.p-xxl-5
+      .col-12.col-xl-8.d-flex.flex-column.justify-content-center.bg-amarillo-claro.p-4.p-xxl-5(data-aos="fade-up")
         p.mb-4 El pensamiento lógico, combinado con un enfoque crítico, es una herramienta poderosa para el análisis y la toma de decisiones en diversos contextos, desde lo cotidiano hasta lo científico, mejorando nuestra capacidad para interactuar y comprender el entorno de manera coherente y fundamentada.
       .d-none.d-xl-block.col-4.px-0
         img.h-100(src='@/assets/curso/unidad/img-74.png', alt='Texto que describa la imagen')
@@ -561,7 +561,7 @@
             .col.mb-3.mb-sm-0
               p.text-bold.mb-3 Proposiciones, conectores lógicos y tablas de verdad
               p.text-small ¿Cómo influye la correcta selección de conectores lógicos en la claridad y coherencia de un argumento? ¿De qué forma pueden las tablas de verdad ayudar a comprender las implicaciones de las relaciones entre diferentes proposiciones? Lo invitamos a leer el PDF Proposiciones, conectores lógicos y tablas de verdad, para profundizar sobre estos elementos.
-            .col-sm-auto
+            .col-sm-auto(data-aos="zoom-in-up")
               a.download-btn.boton.color-terciario.color-ppal(:href="obtenerLink('/downloads/Anexo_Proposiciones_conectores_logicos_y_tablas_de_verdad.pdf')" target="_blank")
                 span.color-ppal.text-small Descargar
                 i.fas.fa-arrow-right.color-ppal

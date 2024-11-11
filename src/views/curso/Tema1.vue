@@ -18,19 +18,19 @@
       div.px-4.px-md-5.pb-md-3
         .row
           p.mb-5.px-5.px-md-0 Antes de definir la <strong>lógica matemática</strong>, es fundamental revisar los términos que la componen. En general, la palabra "lógica" se concibe como una disciplina de la filosofía dedicada al estudio de las inferencias. Al profundizar en su definición, la inferencia se comprende como el proceso mediante el cual una conclusión se sigue de una premisa, existiendo argumentos que pueden ser válidos o no, junto con métodos para identificarlos.
-          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto
+          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto(data-aos="fade-right")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-7.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.text-bold.text-center Principio de no contradicción
                 p.text-small.px-4.text-center.pb-2 Establece que algo no puede ser y no ser al mismo tiempo (A y ¬A no pueden ser ciertos a la vez).
-          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto
+          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto(data-aos="fade-down")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-8.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.text-bold.text-center Principio de identidad 
                 p.text-small.px-4.text-center.pb-2 Determina que algo es siempre idéntico a sí mismo (A es siempre igual a A).
-          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto.mt-4.mt-lg-0
+          .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto.mt-4.mt-lg-0(data-aos="fade-left")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-9.png', alt='Texto que describa la imagen')
               div.mb-4
@@ -57,7 +57,7 @@
             .col-md-12.col-lg-7.mb-4.mb-md-0
               p.fs-18px.text-bold Perspectiva biológica 
               p.fs-18px Declaraciones que pueden ser verdaderas o falsas. Ejemplo: "El número 2 es par".
-            .d-none.d-lg-block.col-md-6.col-lg-4
+            .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="flip-up")
               figure
                 img(src='@/assets/curso/unidad/img-12.png', alt='Texto que describa la imagen')
           .row.p-4.px-md-5.py-lg-5.justify-content-between
@@ -85,13 +85,13 @@
     .row
       p.mb-4.text-bold Algunos ejemplos son: 
     .row.mb-4.pb-2.justify-content-center.align-items-stretch
-      .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
+      .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0(data-aos="flip-right")
         .custom-image-card.d-flex.align-items-center.p-3
           img.pe-2(src='@/assets/curso/unidad/img-16.png', style="width: 80px")
           div
             p.text-bold.mb-0 Proposición simple:
             p.px-1.text-small.mb-0.d-flex "El número 5 es primo".
-      .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0
+      .col-10.col-md-8.col-lg-6.mb-4.mb-xl-0(data-aos="flip-left")
         .custom-image-card.d-flex.align-items-center.p-3
           img.pe-2(src='@/assets/curso/unidad/img-17.png', style="width: 80px")
           div
