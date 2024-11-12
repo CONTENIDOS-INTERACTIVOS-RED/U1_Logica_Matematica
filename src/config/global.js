@@ -23,6 +23,7 @@ export default {
         nombreRuta: 'inicio',
         icono: 'fas fa-home',
         titulo: 'Volver al inicio',
+        unidad: 'Unidad 1',
       },
       {
         nombreRuta: 'introduccion',
