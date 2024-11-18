@@ -167,8 +167,6 @@ export default {
       position: relative
       &--active
         position: relative
-        .title
-          font-size: 20.25px
         .aside-menu__menu__item__lnk
           // background-color: $color-sistema-h
           // font-weight: $base-bold-font-weight
@@ -245,6 +243,8 @@ export default {
   background-color: white
   span
     font-weight: 900
+  .title
+    font-size: 20.25px
 
 .main-menu-enter-active
   animation: main-menu-open-animation .3s
