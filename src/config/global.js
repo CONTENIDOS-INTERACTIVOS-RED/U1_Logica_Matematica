@@ -78,6 +78,12 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        unidad: '',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       // {
@@ -102,19 +108,9 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/Logica_matematica_U1.zip',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-      },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
       },
     ],
   },
@@ -196,64 +192,63 @@ export default {
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Axioma',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Proposición que se acepta como verdadera sin necesidad de demostración; base sobre la cual se construyen teoremas.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Conclusión',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Resultado o inferencia derivada de las premisas en un razonamiento lógico.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Condicional',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Proposición del tipo "si... entonces...", que establece una relación entre dos eventos.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Conjunción',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Operación lógica que combina dos proposiciones y es verdadera solo si ambas son verdaderas; representada como P∧Q.',
     },
     {
-      termino: 'Moda',
-      significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+      termino: 'Ecuación',
+      significado: 'Igualdad matemática que contiene una o más incógnitas.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Lógica',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Rama de la filosofía y las matemáticas que estudia el razonamiento válido y las inferencias.',
     },
     {
-      termino: 'DIseño',
+      termino: 'Lógica de predicados',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Extensión de la lógica proposicional que incluye cuantificadores y permite el uso de variables y predicados.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Negación',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Operación lógica que invierte el valor de verdad de una proposición.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Premisa',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Proposición o afirmación que forma parte de un argumento lógico.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Silogismo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Forma de razonamiento deductivo que consiste en dos premisas y una conclusión.',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Tabla de verdad',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Herramienta que muestra todos los posibles valores de verdad de una proposición o conjunto de proposiciones.',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Teorema',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Proposición que ha sido demostrada a partir de axiomas y otras proposiciones previamente establecidas.',
     },
   ],
   complementario: [

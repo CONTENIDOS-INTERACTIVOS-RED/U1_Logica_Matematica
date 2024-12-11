@@ -17,7 +17,6 @@
     .row.mb-5.bg-fondo-2.bg-full-width
       div.px-4.px-md-5.pb-md-3
         .row
-          p.mb-5.px-5.px-md-0 Antes de definir la <strong>lógica matemática</strong>, es fundamental revisar los términos que la componen. En general, la palabra "lógica" se concibe como una disciplina de la filosofía dedicada al estudio de las inferencias. Al profundizar en su definición, la inferencia se comprende como el proceso mediante el cual una conclusión se sigue de una premisa, existiendo argumentos que pueden ser válidos o no, junto con métodos para identificarlos.
           .col-10.col-md-6.col-lg-4.mb-4.mb-md-0.mx-auto(data-aos="fade-right")
             div.custom-image-card.rounded-8px
               img.mb-4(src='@/assets/curso/unidad/img-7.png', alt='Texto que describa la imagen')
@@ -36,9 +35,6 @@
               div.mb-4
                 p.text-bold.text-center Principio del tercero excluido
                 p.text-small.px-4.text-center.pb-2 Afirma que algo es verdadero o no lo es, sin gradaciones posibles (A o ¬A).
-    .row.mb-4
-      p Estos fundamentos marcaron el inicio de la lógica, y existen más conceptos históricos y definiciones sobre argumentos, validez de los mismos, esquemas de argumentos y revisión de premisas. Además, la lógica se ha dividido en lógica formal e informal, áreas que se abordarán a lo largo de este documento.
-
     .row.mb-5
       .d-none.d-xl-block.col-xl-5.col-xxl-4.mx-auto.mt-4.mt-xl-0
         img(src='@/assets/curso/unidad/img-10.png', alt='Texto que describa la imagen')  
@@ -55,7 +51,7 @@
         SlyderA(tipo="b").bg-white
           .row.p-4.px-md-5.py-lg-5.justify-content-between
             .col-md-12.col-lg-7.mb-4.mb-md-0
-              p.fs-18px.text-bold Perspectiva biológica 
+              p.fs-18px.text-bold Proposiciones 
               p.fs-18px Declaraciones que pueden ser verdaderas o falsas. Ejemplo: "El número 2 es par".
             .d-none.d-lg-block.col-md-6.col-lg-4(data-aos="flip-up")
               figure

@@ -324,16 +324,16 @@
           caption Nota. Tomado  de Aguilar, J. (2024)
           thead
             tr
-              th Aspecto
-              th Aspecto
-              th Derecho Objetivo
+              th Característica
+              th Razonamiento deductivo
+              th Razonamiento inductivo
           tbody
             tr
-              td Característica
+              td Dirección del razonamiento
               td De lo general a lo particular
               td De lo particular a lo general
             tr
-              td Dirección del razonamiento
+              td Certeza de la conclusión
               td La conclusión es verdadera si las premisas lo son
               td La conclusión es probable, pero no segura
             tr
@@ -404,9 +404,9 @@
           .div(titulo="Inducción")
             p Los científicos observan fenómenos específicos, como el comportamiento orbital de los planetas, y a partir de estas observaciones, formulan hipótesis generales, como la ley de la gravitación universal de Newton.
           .div(titulo="Deducción")
-            p Una vez que la hipótesis está formulada, los científicos utilizan el razonamiento deductivo para derivar predicciones específicas que deben cumplirse si la hipótesis es correcta (por ejemplo, la predicción del movimiento de un cometa o el comportamiento de los satélites).
+            p Tras formular una hipótesis, se utiliza el razonamiento deductivo para derivar predicciones específicas que deberían cumplirse si la hipótesis es válida, como predecir el movimiento de un cometa o el comportamiento de los satélites.
           .div(titulo="Comprobación")
-            p Las predicciones derivadas deductivamente se ponen a prueba mediante experimentación o nuevas observaciones. Si las predicciones se cumplen, la hipótesis original se refuerza. Si no, puede ser modificada o descartada
+            p Las predicciones deducidas se prueban mediante experimentación u observaciones adicionales. Si las predicciones se cumplen, la hipótesis se fortalece; si no, se puede modificar o descartar para reflejar mejor las observaciones.
       .col-12.col-lg-5.d-none.d-lg-block(data-aos="flip-up")
         img.-mt-18px(src='@/assets/curso/unidad/img-57.png', alt='Texto que describa la imagen')
 
@@ -538,7 +538,7 @@
       .col-12.col-lg-5.d-none.d-lg-block
         img.-mt-18px(src='@/assets/curso/unidad/img-73.png', alt='Texto que describa la imagen')
 
-    p.mb-4 El razonamiento inductivo y deductivo son pilares esenciales del pensamiento lógico. Mientras que el razonamiento deductivo permite llegar a conclusiones certeras a partir de principios generales, el razonamiento inductivo nos ayuda a formular hipótesis y teorías generales basadas en la observación de casos particulares
+    p.mb-4 El razonamiento inductivo y deductivo son pilares esenciales del pensamiento lógico. Mientras que el razonamiento deductivo permite llegar a conclusiones certeras a partir de principios generales, el razonamiento inductivo nos ayuda a formular hipótesis y teorías generales basadas en la observación de casos particulares. Ambos tipos de razonamiento son indispensables tanto en la ciencia como en la vida cotidiana, ya que nos permiten comprender el mundo, tomar decisiones informadas y resolver problemas de manera adecuada.
     .row.mb-5.mx-0
       .col-12.col-xl-8.d-flex.flex-column.justify-content-center.bg-amarillo-claro.p-4.p-xxl-5(data-aos="fade-up")
         p.mb-4 El pensamiento lógico, combinado con un enfoque crítico, es una herramienta poderosa para el análisis y la toma de decisiones en diversos contextos, desde lo cotidiano hasta lo científico, mejorando nuestra capacidad para interactuar y comprender el entorno de manera coherente y fundamentada.

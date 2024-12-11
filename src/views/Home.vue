@@ -20,8 +20,8 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title.text-uppercase Lógica Matemática
-              h1.home-title.mb-4.text-uppercase Introducción a la Lógica y el Pensamiento Lógico
+              p.home-main-title.text-uppercase Unidad 1
+              h1.home-title.mb-4 Introducción a la Lógica y el Pensamiento Lógico
               p.descripcion.mb-4 La lógica matemática es una disciplina esencial que permite analizar y estructurar proposiciones para construir argumentos coherentes y llegar a conclusiones fundamentadas. A través de conectores lógicos como la conjunción, disyunción e implicación, se exploran relaciones complejas que facilitan el razonamiento en matemáticas, ciencias, informática y situaciones de la vida cotidiana. Herramientas visuales como los diagramas de Venn y las tablas de verdad ayudan a representar estas relaciones y a entender cómo interactúan diferentes proposiciones, promoviendo habilidades de pensamiento crítico y mejorando la toma de decisiones fundamentadas en diversos contextos.
 
               p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
@@ -60,7 +60,7 @@ export default {
       max-width: 1378px
   .home-title
     font-size: 26px !important
-    font-weight: normal
+    font-weight: bold
     @media (min-width: 992px)
       font-size: 38px !important
   .home-main-title
