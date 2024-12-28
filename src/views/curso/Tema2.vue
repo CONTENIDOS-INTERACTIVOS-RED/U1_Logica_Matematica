@@ -565,6 +565,26 @@
               a.download-btn.boton.color-terciario.color-ppal(:href="obtenerLink('/downloads/Anexo_Proposiciones_conectores_logicos_y_tablas_de_verdad.pdf')" target="_blank")
                 span.color-ppal.text-small Descargar
                 i.fas.fa-arrow-right.color-ppal
+
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/70056") obesso, V. (2013). Con argumento Lógico. Universidad del norte.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/228970") Chavez, L. (2021). Estrategia formativa matemática basada en un modelo lógico contextualizado formativo.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/sDZ611JLbxw") Ed Knows & Suss Draws (2020). Método inductivo y deductivo [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+
 </template>
 
 <script>

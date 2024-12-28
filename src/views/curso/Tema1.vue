@@ -94,7 +94,25 @@
             p.text-bold.mb-0 Proposición compuesta:
             p.px-1.text-small.mb-0.d-flex "Si el número 5 es primo, entonces 7 es impar" (usando implicación lógica).
 
-    p La lógica matemática también incluye subramas como la teoría de conjuntos, la teoría de modelos, y la teoría de la computación, que amplían sus aplicaciones a otras áreas matemáticas y científicas.
+    p.mb-5 La lógica matemática también incluye subramas como la teoría de conjuntos, la teoría de modelos, y la teoría de la computación, que amplían sus aplicaciones a otras áreas matemáticas y científicas.
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://concepto.de/pensamiento-logico/") Concepto.de. (s.f.). Pensamiento lógico.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/72677") Gutierrez, E. (2010). Fundamentos de matemáticas y lógica. Instituto politécnico nacional.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.coursera.org/learn/logic-introduction") Stanford. (2024). Introduction to Logic [Curso].
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 
 
